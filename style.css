@@ -1,0 +1,143 @@
+/*
+#24150E black
+#3F2A1D deep dark brown
+#8E6248 coffee brown
+#8C7462 teek brown
+#F2EBE9 white
+*/
+
+*, body{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  max-width: 100%;
+}
+
+/*erase Bootstrap style for logo link*/
+
+a.upper:link, a.upper:visited, a.upper:focus, a.upper:active, a.upper:hover{
+  color: #F2EBE9 !important;
+  text-decoration: none !important;
+}
+
+/*upper bar in main.html--having sidenav button and plus button to add quote*/
+
+.bar-side{
+  width: 24%;
+  text-align: center;
+  margin: 0px;
+  padding:0px;
+  border: 0px;
+  display: inline-block;
+}
+
+.bar-mid{
+  width:49%;
+  text-align: center;
+  margin: 0px;
+  padding:0px;
+  border: 0px;
+  display: inline-block;
+}
+
+.bar-add{
+  width: 24%;
+  text-align: center;
+  margin: 0px;
+  padding:0px;
+  border: 0px;
+  display: inline-block;
+}
+
+/*----------------------------------------------------*/
+
+.bar{
+  margin: 0px;
+  background-color: #3F2A1D;
+  max-width: 100%;
+}
+
+#logo-name{
+  padding: 0.5em;
+  margin: 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #F2EBE9;
+  font-size: 2.2em;
+  max-width: 100%;
+}
+
+.body{
+  max-width: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left: 0.7em;
+  padding-right: 1em;
+}
+
+/*SIDEBAR STYLE*/
+.sidenav {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 4em;
+    background-color: #8E6248;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidenav a {
+    padding: 0.3em 0.3em 0.3em 1.5em;
+    text-decoration: none;
+    font-size: 1.7em;
+    color: #24150E;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none !important;
+    color: #24150E !important;
+
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0.3em;
+    font-size: 3em;
+    text-decoration: none !important;
+    color: #24150E !important;
+}
+
+/* for sign up and sign in button in landing.html*/
+
+.button-containter{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+/*for styling sign up form in signup.html*/
+
+.form-container{
+  position: relative;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.delid{
+  width: 25%;
+  margin: 0px;
+  padding:0px;
+  border: 0px;
+}
+
+.delbut{
+  width: 24%;
+  margin: 0px;
+  padding:0px;
+  border: 0px;
+}
